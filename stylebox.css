@@ -1,0 +1,31 @@
+div {
+  height: 200px;
+  width: 200px;
+
+  border-width: 80px;
+  border-end-start-radius: 80px;
+  border-color: #ec128d;
+  border-radius: 50% ; 
+
+  background-image: url(/Users/Cecilia/Documents/Minhas\ Imagens/img/MenteSa.png);
+  text-align: center;
+  box-shadow: inset 16px 4px 13px 25px #4f4949;
+  background-size: cover;
+
+  padding: 10px;
+
+  outline-width: 40px;
+  outline-style: outset;
+  outline-color: #89babe;
+
+  margin: auto;
+  margin-top: 100px;
+}
+p {
+  padding-top: 100px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+  font-size: 80px;
+  font-weight: bolder;
+  color: aqua;
+  user-select: none;
+}
