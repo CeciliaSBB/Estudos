@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f9f9;
+}
+
+.titulos {
+  height: 60vh;
+  width: 100%;
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #e2aed4;
+  font-size: 35px;
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: animacaoH1 1s step-start infinite;
+}
+
+h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  animationanimation-iteration-count: 3:-h2 1ms step-end infinite;
+  color: #e90dae;
+}
+
+.coraçao {
+  width: 50vw;
+  height: 50vh;
+  background: url("/coraçao.png") no-repeat center center;
+  background-size: contain;
+  animation: pulso 2s infinite;
+}
+
+@keyframes pulso {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes animacaoH1 {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+    color: #e2aeae;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+    color: rgb(247, 10, 148);
+  }
+  100% {
+    transform: translateY(0);
+    color: #f40909;
+  }
+}
+
+@keyframes brilho-h2 {
+  0% {
+    text-shadow: 0 0 10px #fff;
+  }
+  50% {
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #ff47bf, 0 0 40px #e0cfd6;
+  }
+  100% {
+    text-shadow: 0 0 10px #fff;
+  }
+}
+
+@keyframes piscar-h2 {
+  0% {
+    visibility: visible;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
